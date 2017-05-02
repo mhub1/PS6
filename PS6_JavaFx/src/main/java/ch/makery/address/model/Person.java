@@ -20,7 +20,7 @@ public class Person extends PersonDomainModel {
         this(null, null, null, (Integer) null, null, null);
     }
 
-    public Person(String firstName, String lastName, String street, int postalCode, String city, Object birthday ) {
+    public Person(String firstName, String lastName, String street, int postalCode, String city, Object birthday) {
         this.setFirstName(firstName);
         this.setLastName(lastName);
 
